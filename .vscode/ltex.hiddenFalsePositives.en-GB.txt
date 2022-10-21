@@ -1,0 +1,1 @@
+{"rule":"GITHUB","sentence":"^\\QFor example, to make this website I made the repository marioasmira/marioasmira.github.io which is now being published at marioasmira.github.io.\\E$"}
