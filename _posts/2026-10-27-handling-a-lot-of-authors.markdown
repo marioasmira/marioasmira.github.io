@@ -29,6 +29,7 @@ This detail in Obsidian, together with a plugin to import article details from [
 When creating a new note for an article, I spent some additional seconds creating a note for each author.
 In the future, each time I add a new article, I can see right away which authors I already read and which ones are new.
 As shown in the image below, this makes it easy to recognizing familiar names in the field.
+The note for Simon Gladman already existed when I created the note for the article so it has a highlighted color!
 
 ![Obsidian author example](/assets/images/obsidian_author_example.png)
 
