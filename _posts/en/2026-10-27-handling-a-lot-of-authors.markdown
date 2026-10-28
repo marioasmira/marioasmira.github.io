@@ -3,6 +3,7 @@ layout: post
 title:  "Handling a lot of authors when reading scientific articles"
 date:   2026-10-27
 categories: science article organization
+lang: en
 ---
 
 Writing a PhD (and all kinds of other scientific work) requires a lot of time finding, reading, and organizing articles.
