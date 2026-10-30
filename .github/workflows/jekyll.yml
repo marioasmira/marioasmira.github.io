@@ -1,32 +1,20 @@
-name: Jekyll site CI
-
+name: Deploy Jekyll site
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
     branches: [ main ]
-
 jobs:
-  build:
-
+  build-deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build --future"
-    - name: Push the site to the gh-pages branch
-      if: ${{ github.event_name == 'push' }}
-      run: |
-        sudo chown $( whoami ):$( whoami ) ${{ github.workspace }}/_site
-        cd ${{ github.workspace }}/_site
-        git init -b gh-pages
-        git config user.name ${{ github.actor }}
-        git config user.email ${{ github.actor }}@users.noreply.github.com
-        git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
-        git add .
-        git commit -m "Deploy site built from commit ${{ github.sha }}"
-        git push -f -u origin gh-pages
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: $
+          publish_dir: ./_site
