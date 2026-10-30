@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-10-30T14:47:53+00:00</updated><id>/feed.xml</id><title type="html">Mário AS Mira blog</title><subtitle>A place to place whatever projects I may want to share.</subtitle><entry xml:lang="en"><title type="html">Handling a lot of authors when reading scientific articles</title><link href="/science/article/organization/2026/10/27/handling-a-lot-of-authors.html" rel="alternate" type="text/html" title="Handling a lot of authors when reading scientific articles" /><published>2026-10-27T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>/science/article/organization/2026/10/27/handling-a-lot-of-authors</id><content type="html" xml:base="/science/article/organization/2026/10/27/handling-a-lot-of-authors.html"><![CDATA[<p>Writing a PhD (and all kinds of other scientific work) requires a lot of time finding, reading, and organizing articles.
+For me, the hardest part was keeping up pace with the amount of author names.
+Each article I was reading had some four to six authors and the field of parental effects is relatively large; meaning there is not a ton of overlap and repeating authors.
+It was hard for me to distinguish between the authors that have been working with parental effects for a long time and which authors were contributing temporarily.
+Close to the end of the PhD, I came across <a href="https://obsidian.md/">Obsidian</a>.</p>
+
+<p>Obsidian is a note taking app, but without a lot of the bells and whistles that other apps have (like OneNote and the like).
+Instead, each note corresponds to a single text file (with a name like <code class="language-plaintext highlighter-rouge">TITLE.md</code>) which can be easily opened with other text editors.
+However, the defining detail of Obsidian for me is the <strong>“backlink”</strong> feature.</p>
+
+<p>Like in normal Markdown formats, you can link between files by using square brackets (<code class="language-plaintext highlighter-rouge">[like this]</code>).
+In Obsidian, when you make a link (with <code class="language-plaintext highlighter-rouge">[[double brackets]]</code>) you don’t necessarily create the target of the link, leaving it hanging.
+In this way, as you write a note, you can create links to future ideas without having to make all the files immediately.
+When you finally make this new note, you can see which previous notes link to the newly created one; this is the “backlink”.
+Alternatively, you can create all links immediately and, as you write new notes, you will recognize which terms you already wrote about.
+For example, when writing notes about <code class="language-plaintext highlighter-rouge">git</code>, you can include a link to <code class="language-plaintext highlighter-rouge">[[Linus Torvalds]]</code> without worrying too much about it.
+Then, 3 months later, when you write notes about <code class="language-plaintext highlighter-rouge">linux</code> and include the same link (and create the Mr. Torvalds note) you might be surprised he created both pieces of software.</p>
+
+<p><img src="/assets/images/obsidian_backlink_example.png" alt="Obsidian backlink example" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p>This detail in Obsidian, together with a plugin to import article details from <a href="https://www.zotero.org/">Zotero</a>, made reading, noting, and organizing ideas much easier.
+When creating a new note for an article, I spent some additional seconds creating a note for each author.
+In the future, each time I add a new article, I can see right away which authors I already read and which ones are new.
+As shown in the image below, this makes it easy to recognizing familiar names in the field.
+The note for Simon Gladman already existed when I created the note for the article so it has a highlighted color!</p>
+
+<p><img src="/assets/images/obsidian_author_example.png" alt="Obsidian author example" /></p>
+
+<p>One neat additional detail about this is that it will work across all types of notes.
+If you happen to take notes on many different topics, you might be surprised to find people and details that go all over the place.
+In my case, I was surprised to find that the author of a stoicism book I was reading, Massimo Pigliucci, was also the author of an evolutionary biology article I read for my thesis.
+Small world, probably.</p>]]></content><author><name></name></author><category term="science" /><category term="article" /><category term="organization" /><summary type="html"><![CDATA[Writing a PhD (and all kinds of other scientific work) requires a lot of time finding, reading, and organizing articles. For me, the hardest part was keeping up pace with the amount of author names. Each article I was reading had some four to six authors and the field of parental effects is relatively large; meaning there is not a ton of overlap and repeating authors. It was hard for me to distinguish between the authors that have been working with parental effects for a long time and which authors were contributing temporarily. Close to the end of the PhD, I came across Obsidian.]]></summary></entry><entry xml:lang="en"><title type="html">3D printing in (behaviour) science</title><link href="/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html" rel="alternate" type="text/html" title="3D printing in (behaviour) science" /><published>2023-04-19T00:00:00+00:00</published><updated>2023-04-19T00:00:00+00:00</updated><id>/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science</id><content type="html" xml:base="/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html"><![CDATA[<p>Recently, my wife designed a behaviour experiment where a decoy poison dart frog individual was necessary.
+That is, we needed a body of a frog to be present when other stimuli were being presented to the target individual.
+We tried looking for commercial poison dart frog models online, but we weren’t very successful.
+I had recently bought a 3D printer (an Ender 3), so we decided to try the good ol’ DIY approach a try.</p>
+
+<p><img src="/assets/images/3d_model_screenshot.png" alt="3D poison dart frog model" /></p>
+
+<p>We searched 3D file websites for all kinds of poison frog shaped models.
+At the time we weren’t very successful at finding a super accurate model either.
+We settled for <a href="https://www.printables.com/model/211953-poison-dart-frog">this model</a>.
+The body volume seemed too high, and the hind legs seemed too short, but we went for it anyway.
+As I’m writing this (a year and a half after the experiment itself), I have found some more accurate models like <a href="https://www.myminifactory.com/object/3d-print-poison-dart-frog-222271">this one on myminifactory.com</a> and <a href="https://sketchfab.com/3d-models/strawberry-poison-dart-frog-e51fa3941ceb42cc985524c138e91f8b">this one on sketchfab.com</a>.</p>
+
+<p><img src="/assets/images/Topaint.png" alt="Frogs to paint" /></p>
+
+<p>Once we had a good enough model, we started looking at the populations of frogs that would be used in the experiment.
+Although only one species was used in the experiment (<a href="https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog"><em>Dendrobates tinctorius</em></a>), it has an extraordinary variability of sizes and colours between locations.
+Since four different locations were going to be used, we had to print these models at four different scales and four corresponding different colour morphs.
+To have more or less correctly sized models, we collected the snout-vent length measurements of each morph and tried to match them by scaling the model in the slicer program.</p>
+
+<p><img src="/assets/images/frog_ghosts.jpg" alt="Ghost frogs" /></p>
+
+<p>The colour matching involved a bit more work.
+When the frogs to be used in the experiment were collected from the wild, they were photographed from the top (see above) allowing us to see their dorsal patterns and colours.
+Unfortunately, we did not have a photo of the ventral side, so I had to speculate.
+We chose a single male individual for each morph to be copied into the models.
+Once the models finished printing, and we confirmed they didn’t have any weird printing artefacts, I started by coating the whole model with a white spray primer.
+On this primer and with the help of the dorsal photos, I drew the patterns of each morph with a pencil and painted the respective colours as close as possible to the original.
+I used some acrylic paints bought at the closest convenience store. Finally, when we were happy with the results, I sprayed on a couple of coats of a glossy varnish, to make the paint job more resistant to scratches and humidity.
+We were told by the salesman that the varnish did not have any odours, but we can’t really confirm or deny that is the case for the frogs.</p>
+
+<p><img src="/assets/images/frog_from_above.jpg" alt="Frog from above" />
+<img src="/assets/images/frog_hanging_out.jpg" alt="Frog hanging out" /></p>
+
+<p>What was the end result?
+It seems to have worked.
+The results of the experiment itself are not yet published, but the study individuals appeared to have tried to interact with our models.
+And in the end, that was the goal!</p>
+
+<p>Could we improve this for the future?
+I think this is an interesting topic to discuss.
+With the increasingly easy to obtain and use 3D printers, science and more specifically behaviour science could benefit from a repository of accurate 3D models of study species.
+Could something like this exist in the future?
+How hard is it to create an accurate model of a living organism?</p>]]></content><author><name></name></author><category term="3Dprinting" /><category term="science" /><category term="behaviour" /><category term="painting" /><summary type="html"><![CDATA[Recently, my wife designed a behaviour experiment where a decoy poison dart frog individual was necessary. That is, we needed a body of a frog to be present when other stimuli were being presented to the target individual. We tried looking for commercial poison dart frog models online, but we weren’t very successful. I had recently bought a 3D printer (an Ender 3), so we decided to try the good ol’ DIY approach a try.]]></summary></entry><entry xml:lang="en"><title type="html">Making a website</title><link href="/jekyll/update/code/site/2022/10/21/making-a-website.html" rel="alternate" type="text/html" title="Making a website" /><published>2022-10-21T00:00:00+00:00</published><updated>2022-10-21T00:00:00+00:00</updated><id>/jekyll/update/code/site/2022/10/21/making-a-website</id><content type="html" xml:base="/jekyll/update/code/site/2022/10/21/making-a-website.html"><![CDATA[<p>This is mostly a post to get more comfortable with web posting.
+I’m also using this to share how I built this webpage.</p>
+
+<h2 id="finding-a-place-to-put-it">Finding a place to put it</h2>
+
+<p>I originally searched for ways to host a website at home or maybe in a could service.
+But all the options I found required some sort of knowledge in how to actually run a website.
+Then I learned about <a href="https://pages.github.com/">GitHub Pages</a> which seemed to be a good option to start and learn how to do this.</p>
+
+<h2 id="how-to-put-it">How to put it</h2>
+
+<p>As described in the link, it’s as simple as creating a new repository for your <em>username</em>, and you can start working on it.
+For example, to make this website I made the repository <em>marioasmira/marioasmira.github.io</em> which is now being published at <a href="https://marioasmira.github.io/">marioasmira.github.io</a>.
+This website however, would need to be written in HTML and CSS, and I’m not super familiar with those…
+So I decided to also follow their suggestion of using <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<p>Jekyll is a neat way to transform <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> text files into a static website, which is exactly what I wanted to do.
+After choosing where to publish and how to publish these pages it was relatively easy to follow the <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">guides</a>.</p>
+
+<h2 id="neat-things">Neat things</h2>
+
+<p>We can import images.
+For example, here is a picture of a <em>Drosophila melanogaster</em> egg under the microscope in which the colour layers somehow got shifted around:</p>
+
+<p><img src="/assets/images/1_ant_28_45.png" alt="egg" /></p>
+
+<p>We can also show code in a neat way.
+In C++:</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello world!"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And in Python:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello world!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This seems like a simple and cheap way to make a website, so I think I’ll continue posting more of the projects I’ve done and will do.
+No promises though!</p>
+
+<p>I’ll see you soon.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="code" /><category term="site" /><summary type="html"><![CDATA[This is mostly a post to get more comfortable with web posting. I’m also using this to share how I built this webpage.]]></summary></entry></feed>
