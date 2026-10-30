@@ -3,7 +3,6 @@ layout: post
 title:  "3D printing in (behaviour) science"
 date:   2023-04-19
 categories: 3Dprinting science behaviour painting
-lang: en
 ---
 
 Recently, my wife designed a behaviour experiment where a decoy poison dart frog individual was necessary.

@@ -3,7 +3,4 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-permalink: "/"
-list_title: "Posts"
-lang: pt
 ---
