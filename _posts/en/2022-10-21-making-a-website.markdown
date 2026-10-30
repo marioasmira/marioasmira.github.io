@@ -3,6 +3,7 @@ layout: post
 title:  "Making a website"
 date:   2022-10-21
 categories: jekyll update code site
+lang: en
 ---
 
 This is mostly a post to get more comfortable with web posting.
