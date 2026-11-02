@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mário AS Mira blog
+author: Mário AS Mira
 email: marioasmira@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A place to place whatever projects I may want to share.
