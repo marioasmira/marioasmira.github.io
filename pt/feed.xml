@@ -1,105 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/pt/feed.xml" rel="self" type="application/atom+xml" /><link href="/pt/" rel="alternate" type="text/html" /><updated>2026-10-30T14:59:32+00:00</updated><id>/feed.xml</id><title type="html">Mário AS Mira blog</title><subtitle>A place to place whatever projects I may want to share.</subtitle><entry xml:lang="pt"><title type="html">Lidar com muitos autores ao ler artigos científicos</title><link href="/pt/science/article/organization/2026/10/27/handling-a-lot-of-authors.html" rel="alternate" type="text/html" title="Lidar com muitos autores ao ler artigos científicos" /><published>2026-10-27T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>/science/article/organization/2026/10/27/handling-a-lot-of-authors</id><content type="html" xml:base="/science/article/organization/2026/10/27/handling-a-lot-of-authors.html"><![CDATA[<p>Writing a PhD (and all kinds of other scientific work) requires a lot of time finding, reading, and organizing articles.
-For me, the hardest part was keeping up pace with the amount of author names.
-Each article I was reading had some four to six authors and the field of parental effects is relatively large; meaning there is not a ton of overlap and repeating authors.
-It was hard for me to distinguish between the authors that have been working with parental effects for a long time and which authors were contributing temporarily.
-Close to the end of the PhD, I came across <a href="https://obsidian.md/">Obsidian</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/pt/feed.xml" rel="self" type="application/atom+xml" /><link href="/pt/" rel="alternate" type="text/html" /><updated>2026-11-02T16:07:59+00:00</updated><id>/feed.xml</id><title type="html">Mário AS Mira blog</title><subtitle>A place to place whatever projects I may want to share.</subtitle><author><name>Mário AS Mira</name></author><entry xml:lang="pt"><title type="html">Lidar com muitos autores ao ler artigos científicos</title><link href="/pt/science/article/organization/2026/10/27/handling-a-lot-of-authors.html" rel="alternate" type="text/html" title="Lidar com muitos autores ao ler artigos científicos" /><published>2026-10-27T00:00:00+00:00</published><updated>2026-10-27T00:00:00+00:00</updated><id>/science/article/organization/2026/10/27/handling-a-lot-of-authors</id><content type="html" xml:base="/science/article/organization/2026/10/27/handling-a-lot-of-authors.html"><![CDATA[<p>Escrever um doutoramento (e muitos outros tipos the trabalhos científicos) requer muito tempo a encontrar, ler, e organizar artigos.
+Para mim, a parte mais difícil foi acompanhar a quantidade de nomes de autores.
+Cade artigo que li tinha quatro a seis autores e a área de efeitos parentais é relativamente grande; isto significa que não há muitas sobreposições e autores repetidos.
+Foi difícil para mim distinguir os autores que têm trabalhado com efeitos parentais há muito tempo dos autores que estavam a contribuir temporariamente.
+Perto do fim do doutoramento, encontrei o <a href="https://obsidian.md/">Obsidian</a>.</p>
 
-<p>Obsidian is a note taking app, but without a lot of the bells and whistles that other apps have (like OneNote and the like).
-Instead, each note corresponds to a single text file (with a name like <code class="language-plaintext highlighter-rouge">TITLE.md</code>) which can be easily opened with other text editors.
-However, the defining detail of Obsidian for me is the <strong>“backlink”</strong> feature.</p>
+<p>O Obsidian é uma app de tirar notas, mas sem muitos dos detalhes que outras apps tem (tipo OneNote e parecidos).
+Em vez disso, cada nota corresponde a um único ficheiro de texto (com um nome tipo <code class="language-plaintext highlighter-rouge">TITULO.md</code>) que pode ser facilmente ser aberto com outros editores de texto.
+No entanto, o detalhe importante do Obsidian para mim é a caracteristica de <strong>“backlink”</strong> (uma “ligação de volta”).</p>
 
-<p>Like in normal Markdown formats, you can link between files by using square brackets (<code class="language-plaintext highlighter-rouge">[like this]</code>).
-In Obsidian, when you make a link (with <code class="language-plaintext highlighter-rouge">[[double brackets]]</code>) you don’t necessarily create the target of the link, leaving it hanging.
-In this way, as you write a note, you can create links to future ideas without having to make all the files immediately.
-When you finally make this new note, you can see which previous notes link to the newly created one; this is the “backlink”.
-Alternatively, you can create all links immediately and, as you write new notes, you will recognize which terms you already wrote about.
-For example, when writing notes about <code class="language-plaintext highlighter-rouge">git</code>, you can include a link to <code class="language-plaintext highlighter-rouge">[[Linus Torvalds]]</code> without worrying too much about it.
-Then, 3 months later, when you write notes about <code class="language-plaintext highlighter-rouge">linux</code> and include the same link (and create the Mr. Torvalds note) you might be surprised he created both pieces of software.</p>
+<p>Como nos formatos Markdown normais, dá para fazer ligações entre ficheiros com parenteses retos (<code class="language-plaintext highlighter-rouge">[assim]</code>).
+No Obsidian, quando se faz uma ligação (com <code class="language-plaintext highlighter-rouge">[[parenteses duplos]]</code>) não se cria o alvo da ligação e ela fica sem destino.
+Desta forma, ao escrever uma nota, pode-se criar ligações para ideias futuras sem ter de criar todos os ficheiros imediatamente.
+Quando se cria finalmente uma destas novas notas, dá para ver quais das notas anteriores fez uma ligação para a nota nova; isto é o “backlink”.
+Alternativamente, pode-se criar todas as ligações imediatamente and, ao escrever novas notas, dá para reconhecer que termos é que já foram usados antes.
+Por exemplo, ao escrever notas sobre <code class="language-plaintext highlighter-rouge">git</code>, pode-se incluir um link para <code class="language-plaintext highlighter-rouge">[[Linus Torvalds]]</code> sem pensar muito mais no assunto.
+Depois, três meses depois, ao escrever notas sobre <code class="language-plaintext highlighter-rouge">linux</code> e incluir a mesma ligação (e ao criar a nota do Sr. Torvalds) podemos ficar surpreendidos que ele criou ambos os softwares.</p>
 
-<p><img src="/assets/images/obsidian_backlink_example.png" alt="Obsidian backlink example" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<p><img src="/assets/images/obsidian_backlink_example.png" alt="Exemplo de backlink no Obsidian" style="display:block; margin-left:auto; margin-right:auto" /></p>
 
-<p>This detail in Obsidian, together with a plugin to import article details from <a href="https://www.zotero.org/">Zotero</a>, made reading, noting, and organizing ideas much easier.
-When creating a new note for an article, I spent some additional seconds creating a note for each author.
-In the future, each time I add a new article, I can see right away which authors I already read and which ones are new.
-As shown in the image below, this makes it easy to recognizing familiar names in the field.
-The note for Simon Gladman already existed when I created the note for the article so it has a highlighted color!</p>
+<p>Este detalhe no Obsidian, juntamente com um plugin para importar detalhes dos artigos do <a href="https://www.zotero.org/">Zotero</a>, fez ler, notar, e organizar as minhas ideias bem mais fácil.
+Ao criar uma nota para um artigo, passei uns segundos adicionais a criar as notas para cada um dos autores.
+No futuro, de cada vez que adiciono um novo artigo, posso ver imediatamente que autores é que já tinha lido e quais eram novos.
+Como demonstrado na imagem abaixo, isto torna o reconhecimento de nomes familiares mais fácil.
+A nota para Simon Gladman já existia quando criei a nota para o artigo por isso aparece com uma cor mais clara!</p>
 
-<p><img src="/assets/images/obsidian_author_example.png" alt="Obsidian author example" /></p>
+<p><img src="/assets/images/obsidian_author_example.png" alt="Exemplo de autores no Obsidian" /></p>
 
-<p>One neat additional detail about this is that it will work across all types of notes.
-If you happen to take notes on many different topics, you might be surprised to find people and details that go all over the place.
-In my case, I was surprised to find that the author of a stoicism book I was reading, Massimo Pigliucci, was also the author of an evolutionary biology article I read for my thesis.
-Small world, probably.</p>]]></content><author><name></name></author><category term="science" /><category term="article" /><category term="organization" /><summary type="html"><![CDATA[Writing a PhD (and all kinds of other scientific work) requires a lot of time finding, reading, and organizing articles. For me, the hardest part was keeping up pace with the amount of author names. Each article I was reading had some four to six authors and the field of parental effects is relatively large; meaning there is not a ton of overlap and repeating authors. It was hard for me to distinguish between the authors that have been working with parental effects for a long time and which authors were contributing temporarily. Close to the end of the PhD, I came across Obsidian.]]></summary></entry><entry xml:lang="en"><title type="html">3D printing in (behaviour) science</title><link href="/pt/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html" rel="alternate" type="text/html" title="3D printing in (behaviour) science" /><published>2023-04-19T00:00:00+00:00</published><updated>2023-04-19T00:00:00+00:00</updated><id>/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science</id><content type="html" xml:base="/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html"><![CDATA[<p>Recently, my wife designed a behaviour experiment where a decoy poison dart frog individual was necessary.
-That is, we needed a body of a frog to be present when other stimuli were being presented to the target individual.
-We tried looking for commercial poison dart frog models online, but we weren’t very successful.
-I had recently bought a 3D printer (an Ender 3), so we decided to try the good ol’ DIY approach a try.</p>
+<p>Um detalhe interessante adicional sobre isto é que funciona através de todos os tipos de tópicos.
+Se criar-mos notas sobre muitos tópicos diferentes, podemos ficar surpreendidos que as mesmas pessoas e detalhes podem estar presentes em todo o lado.
+No meu caso, fiquei surpreendido ao descobrir que o autor de um livro de estoicismo que estava a ler, Massimo Pigliucci, era também o autor de um artigo de biologia evolutiva que li para o doutoramento.
+Que mundo pequeno, provavelmente.</p>]]></content><author><name>Mário AS Mira</name></author><category term="science" /><category term="article" /><category term="organization" /><summary type="html"><![CDATA[Escrever um doutoramento (e muitos outros tipos the trabalhos científicos) requer muito tempo a encontrar, ler, e organizar artigos. Para mim, a parte mais difícil foi acompanhar a quantidade de nomes de autores. Cade artigo que li tinha quatro a seis autores e a área de efeitos parentais é relativamente grande; isto significa que não há muitas sobreposições e autores repetidos. Foi difícil para mim distinguir os autores que têm trabalhado com efeitos parentais há muito tempo dos autores que estavam a contribuir temporariamente. Perto do fim do doutoramento, encontrei o Obsidian.]]></summary></entry><entry xml:lang="pt"><title type="html">Impressão 3D em ciência (do comportamento)</title><link href="/pt/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html" rel="alternate" type="text/html" title="Impressão 3D em ciência (do comportamento)" /><published>2023-04-19T00:00:00+00:00</published><updated>2023-04-19T00:00:00+00:00</updated><id>/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science</id><content type="html" xml:base="/3dprinting/science/behaviour/painting/2023/04/19/3d-printing-in-science.html"><![CDATA[<p>Recentemente, a minha esposa desenhou uma experiência comportamental onde era preciso um sapo falso (dos coloridos “poison dart”, da família Dendrobatidae).
+Isto é, era preciso que o corpo de um sapo estivesse presente enquanto outro estímulos são apresentados ao indivíduo alvo.
+Tentamos procurar por modelos comerciais online mas não fomos bem sucedidos.
+Tinhamos comprado recentemente uma impressora 3D (uma Ender 3), por isso decidimos tentar a velha abordagem do “desenrascanço” (DIY).</p>
 
-<p><img src="/assets/images/3d_model_screenshot.png" alt="3D poison dart frog model" /></p>
+<p><img src="/assets/images/3d_model_screenshot.png" alt="modelo 3D de um sapo poison dart" /></p>
 
-<p>We searched 3D file websites for all kinds of poison frog shaped models.
-At the time we weren’t very successful at finding a super accurate model either.
-We settled for <a href="https://www.printables.com/model/211953-poison-dart-frog">this model</a>.
-The body volume seemed too high, and the hind legs seemed too short, but we went for it anyway.
-As I’m writing this (a year and a half after the experiment itself), I have found some more accurate models like <a href="https://www.myminifactory.com/object/3d-print-poison-dart-frog-222271">this one on myminifactory.com</a> and <a href="https://sketchfab.com/3d-models/strawberry-poison-dart-frog-e51fa3941ceb42cc985524c138e91f8b">this one on sketchfab.com</a>.</p>
+<p>Procurámos em todos os tipos de websites de modelos 3D por modelos que se aproximassem de um sapo “poison dart”.
+Na altura, também não fomos bem sucedidos na procura de modelos super exatos.
+Acabámos por escolher <a href="https://www.printables.com/model/211953-poison-dart-frog">este modelo</a>.
+O volume do corpo parecia demasiado grande, e as pernas de trás pareceram demasiado pequenas, mas continuámos com este de qualquer forma.
+Na altura em que escrevo isto (um ano e meio depois da experiência em si), encontrei um modelos mais exatos como <a href="https://www.myminifactory.com/object/3d-print-poison-dart-frog-222271">este em myminifactory.com</a> e <a href="https://sketchfab.com/3d-models/strawberry-poison-dart-frog-e51fa3941ceb42cc985524c138e91f8b">este em sketchfab.com</a>.</p>
 
-<p><img src="/assets/images/Topaint.png" alt="Frogs to paint" /></p>
+<p><img src="/assets/images/Topaint.png" alt="Sapos a pintar" /></p>
 
-<p>Once we had a good enough model, we started looking at the populations of frogs that would be used in the experiment.
-Although only one species was used in the experiment (<a href="https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog"><em>Dendrobates tinctorius</em></a>), it has an extraordinary variability of sizes and colours between locations.
-Since four different locations were going to be used, we had to print these models at four different scales and four corresponding different colour morphs.
-To have more or less correctly sized models, we collected the snout-vent length measurements of each morph and tried to match them by scaling the model in the slicer program.</p>
+<p>Depois de encontrado um modelo suficientemente bom, começámos a olhar para as populações de sapos que seriam usados na experiência.
+Apesar do uso de uma única espécie na experiência (<a href="https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog"><em>Dendrobates tinctorius</em></a>), esta tem uma variabilidade incrivel de tamanhos e cores entre locais.
+Uma vez que iam ser usadas quatro populações, tivemos de imprimir estes modelos com quatro escalas diferentes e quatro “morpfs” de côr correspondentes.
+Para ter modelos com o tamanho mais ou menos correto, medimos o comprimento snout-vent (basicamente, do nariz até ao rabo) de cada “morf” e tentamos escalar os modelos com o programa de “slice” de modo a que correspondesse às medidas dos sapos reais.</p>
 
-<p><img src="/assets/images/frog_ghosts.jpg" alt="Ghost frogs" /></p>
+<p><img src="/assets/images/frog_ghosts.jpg" alt="Sapos fantasma" /></p>
 
-<p>The colour matching involved a bit more work.
-When the frogs to be used in the experiment were collected from the wild, they were photographed from the top (see above) allowing us to see their dorsal patterns and colours.
-Unfortunately, we did not have a photo of the ventral side, so I had to speculate.
-We chose a single male individual for each morph to be copied into the models.
-Once the models finished printing, and we confirmed they didn’t have any weird printing artefacts, I started by coating the whole model with a white spray primer.
-On this primer and with the help of the dorsal photos, I drew the patterns of each morph with a pencil and painted the respective colours as close as possible to the original.
-I used some acrylic paints bought at the closest convenience store. Finally, when we were happy with the results, I sprayed on a couple of coats of a glossy varnish, to make the paint job more resistant to scratches and humidity.
-We were told by the salesman that the varnish did not have any odours, but we can’t really confirm or deny that is the case for the frogs.</p>
+<p>Equacionar as cores envolveu um bocado de mais trabalho.
+Quando os sapos usados na experiência foram apanhados da Natureza, foram fotografados de cima (numa das figuras acima) o que nos deixou ver o seu padrão dorsal e cores correspondentes.
+Infelizmente, não tinhamos uma foto ventral por isso tive de especular.
+Escolhemos um único indivíduo macho de cada “morf” para ser copiado para os modelos.
+Depois de acabados de imprimir, e confirmamos que nenhum dos modelos tinha artefactos esquisitos de impressão, comecei por cobrir o modelo todo com um spray primário branco.
+Em cima desta camada primária e com a ajuda das fotos dorsais, desenhei os padrões de cada “morf” a lápis e pintei as cores correspondentes o mais próximo do original possível.
+Para isto, usei tintas acrilicas compradas na loja mais próxima.
+Finalmente, quando contente com os resultados, cobri o modelo com várias camadas de verniz brilhante, para tornar a tinta mais resistente a arranhões e humidade.
+O vendedor na loja disse-nos que o verniz que usámos não tinha odores, mas não podemos mesmo confirmar ou discordar se é o mesmo caso para os sapos.</p>
 
-<p><img src="/assets/images/frog_from_above.jpg" alt="Frog from above" />
-<img src="/assets/images/frog_hanging_out.jpg" alt="Frog hanging out" /></p>
+<p><img src="/assets/images/frog_from_above.jpg" alt="Sapo de cima" />
+<img src="/assets/images/frog_hanging_out.jpg" alt="Sapo na descontra" /></p>
 
-<p>What was the end result?
-It seems to have worked.
-The results of the experiment itself are not yet published, but the study individuals appeared to have tried to interact with our models.
-And in the end, that was the goal!</p>
+<p>Qual foi o resultado final?
+Parece ter funcionado.
+Os resultados da experiência em si não foram ainda publicados, mas os indivíduos da experiência parecem ter tentado interagido com os nossos modelos.
+E no fim era esse o objetivo!</p>
 
-<p>Could we improve this for the future?
-I think this is an interesting topic to discuss.
-With the increasingly easy to obtain and use 3D printers, science and more specifically behaviour science could benefit from a repository of accurate 3D models of study species.
-Could something like this exist in the future?
-How hard is it to create an accurate model of a living organism?</p>]]></content><author><name></name></author><category term="3Dprinting" /><category term="science" /><category term="behaviour" /><category term="painting" /><summary type="html"><![CDATA[Recently, my wife designed a behaviour experiment where a decoy poison dart frog individual was necessary. That is, we needed a body of a frog to be present when other stimuli were being presented to the target individual. We tried looking for commercial poison dart frog models online, but we weren’t very successful. I had recently bought a 3D printer (an Ender 3), so we decided to try the good ol’ DIY approach a try.]]></summary></entry><entry xml:lang="en"><title type="html">Making a website</title><link href="/pt/jekyll/update/code/site/2022/10/21/making-a-website.html" rel="alternate" type="text/html" title="Making a website" /><published>2022-10-21T00:00:00+00:00</published><updated>2022-10-21T00:00:00+00:00</updated><id>/jekyll/update/code/site/2022/10/21/making-a-website</id><content type="html" xml:base="/jekyll/update/code/site/2022/10/21/making-a-website.html"><![CDATA[<p>This is mostly a post to get more comfortable with web posting.
-I’m also using this to share how I built this webpage.</p>
+<p>Podemos melhorar este processo para o futuro?
+Acho que é um tópico de discussão interessante.
+Com a facilidade de obter e usar impressoras 3D a aumentar, ciência e mais especificamente ciência do comportamento poderá beneficiar de um repositório de modelos 3D exatos de espécies.
+Poderá algo assim existir no futuro?
+Quão difícil é fazer um model exato de um organismo vivo?</p>]]></content><author><name>Mário AS Mira</name></author><category term="3Dprinting" /><category term="science" /><category term="behaviour" /><category term="painting" /><summary type="html"><![CDATA[Recentemente, a minha esposa desenhou uma experiência comportamental onde era preciso um sapo falso (dos coloridos “poison dart”, da família Dendrobatidae). Isto é, era preciso que o corpo de um sapo estivesse presente enquanto outro estímulos são apresentados ao indivíduo alvo. Tentamos procurar por modelos comerciais online mas não fomos bem sucedidos. Tinhamos comprado recentemente uma impressora 3D (uma Ender 3), por isso decidimos tentar a velha abordagem do “desenrascanço” (DIY).]]></summary></entry><entry xml:lang="pt"><title type="html">Fazer um website</title><link href="/pt/jekyll/update/code/site/2022/10/21/making-a-website.html" rel="alternate" type="text/html" title="Fazer um website" /><published>2022-10-21T00:00:00+00:00</published><updated>2022-10-21T00:00:00+00:00</updated><id>/jekyll/update/code/site/2022/10/21/making-a-website</id><content type="html" xml:base="/jekyll/update/code/site/2022/10/21/making-a-website.html"><![CDATA[<p>Este post server maioritariamente para ficar mais confortável a postar online.
+Também estou a usar este post para partilhar como construi esta página.</p>
 
-<h2 id="finding-a-place-to-put-it">Finding a place to put it</h2>
+<h2 id="encontrar-um-sítio-para-colocar-o-website">Encontrar um sítio para colocar o website</h2>
 
-<p>I originally searched for ways to host a website at home or maybe in a could service.
-But all the options I found required some sort of knowledge in how to actually run a website.
-Then I learned about <a href="https://pages.github.com/">GitHub Pages</a> which seemed to be a good option to start and learn how to do this.</p>
+<p>Originalmente, procurei maneiras de “hospedar” um website em casa ou talvez “na nuvem”.
+Mas todas as opções que encontrei requeriam algum tipo de conhecimento em como gerir um website.
+Depois, aprendi sobre <a href="https://pages.github.com/">GitHub Pages</a> que me pareceu uma boa opção para comecar e aprender como fazer isto.</p>
 
-<h2 id="how-to-put-it">How to put it</h2>
+<h2 id="como-pôr-isto-online">Como pôr isto online</h2>
 
-<p>As described in the link, it’s as simple as creating a new repository for your <em>username</em>, and you can start working on it.
-For example, to make this website I made the repository <em>marioasmira/marioasmira.github.io</em> which is now being published at <a href="https://marioasmira.github.io/">marioasmira.github.io</a>.
-This website however, would need to be written in HTML and CSS, and I’m not super familiar with those…
-So I decided to also follow their suggestion of using <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+<p>Como foi descrito no link, é tão simples como criar um repositorio com o nosso <em>username</em>, e podemos comecar a trabalhar
+Por exemplo, para fazer este website, criei o repositório <em>marioasmira/marioasmira.github.io</em> que está a ser publicado em <a href="https://marioasmira.github.io/">marioasmira.github.io</a>.
+Este website, no entanto, precisaria de ser escrito em HTML e CSS, e não sou super familiar com estas línguas…
+Decidi então seguir a sugestão dada pelo link e usar <a href="https://jekyllrb.com/">Jekyll</a>.</p>
 
-<p>Jekyll is a neat way to transform <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> text files into a static website, which is exactly what I wanted to do.
-After choosing where to publish and how to publish these pages it was relatively easy to follow the <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">guides</a>.</p>
+<p>Jekyll é uma forma interessante de transformar ficheiros de texto <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> num website estático, que é exatamente o que eu queria.
+Depois de escolher onde e como publicar estas páginas, foi relativamente simples seguir os <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">guias</a>.</p>
 
-<h2 id="neat-things">Neat things</h2>
+<h2 id="coisas-interessantes">Coisas interessantes</h2>
 
-<p>We can import images.
-For example, here is a picture of a <em>Drosophila melanogaster</em> egg under the microscope in which the colour layers somehow got shifted around:</p>
+<p>Podemos importar imagens.
+Por example, aqui está uma imagem de um ovo de <em>DRosophila melanogaster</em> sobre microscópio onde as camadas de cores ficaram desfasadas:</p>
 
-<p><img src="/assets/images/1_ant_28_45.png" alt="egg" /></p>
+<p><img src="/assets/images/1_ant_28_45.png" alt="ovo" /></p>
 
-<p>We can also show code in a neat way.
-In C++:</p>
+<p>Também podemos mostrar código de forma organizada.
+Em C++:</p>
 
 <div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
 </span><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
@@ -108,14 +109,14 @@ In C++:</p>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>And in Python:</p>
+<p>E em Python:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello world!"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="conclusão">Conclusão</h2>
 
-<p>This seems like a simple and cheap way to make a website, so I think I’ll continue posting more of the projects I’ve done and will do.
-No promises though!</p>
+<p>Isto parece ser uma forma relativamente simples e barata de fazer um website, por isso acho que vou continuar a postar mais projetos que tenha feito e venha a fazer.
+Mas sem promessas!</p>
 
-<p>I’ll see you soon.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="code" /><category term="site" /><summary type="html"><![CDATA[This is mostly a post to get more comfortable with web posting. I’m also using this to share how I built this webpage.]]></summary></entry></feed>
+<p>Até breve.</p>]]></content><author><name>Mário AS Mira</name></author><category term="jekyll" /><category term="update" /><category term="code" /><category term="site" /><summary type="html"><![CDATA[Este post server maioritariamente para ficar mais confortável a postar online. Também estou a usar este post para partilhar como construi esta página.]]></summary></entry></feed>
